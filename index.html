@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Ferran</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/codigo.js"></script>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/descarga.png" sizes="64x64">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .top-container {
+            background-color: #f1f1f1;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header {
+            padding: 10px 16px;
+            color: #f1f1f1;
+        }
+        
+        .content {
+            padding: 16px;
+        }
+        
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        
+        #section-8 {
+            background-color: rgb(114, 113, 111);
+        }
+        
+        .sticky+.content {
+            padding-top: 102px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <body>
+        <div id="section-1">
+            <div class="section-1">
+                <h1>Gestión de proyectos con GitHub</h1>
+                <i class="fab fa-html5" style="color:rgb(59, 163, 248)"></i>
+            </div>
+            <div class="header" id="myHeader">
+                <div class="scrollmenu">
+                    <a href="#section-3">Body y sus atributos</a>
+                    <a href="#section-4">P y sus atributos</a>
+                    <a href="#section-5">A y sus atributos</a>
+                    <a href="#section-6">Img y sus atributos</a>
+                    <a href="#section-7">Div y sus atributos</a>
+                    <a href="#section-1"><i class="fas fa-arrow-circle-up"></i></a>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="section-2">
+            <div class="section-2">
+                <h3>Tutorial etiquetas div,body,p,a</h3>
+                <iframe width="1020" height="510" src="https://www.youtube.com/embed/oqegxG13FzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        </div>
+        <!--Empiezan el texto (toda la teoria)-->
+        <div id="section-3">
+
+            <div class="column-2">
+                <h3>body y sus atributos</h3>
+                <p>El elemento body es parte de la estructura básica de un documento. El elemento body es donde se pone todo el contenido de la página. El elemento body tenía varios atributos en versiones antiguas de HTML. Estos atributos se han dejado de
+                    utilizar y por lo tanto se han quitado, ahora tienen atributos generales.
+                </p>
+            </div>
+            <div class="column-2"> <img src="./img/body.png" alt="NO SE VE INTENTA REFRESCAR LA página" width="700px" height="200px"></div>
+
+        </div>
+
+
+        </div>
+        </div>
+        <div id="section-4">
+            <div class="column-2">
+                <img src="./img/p.png" alt="NO SE VE NADA DE NADA" width="700px" height="200px"></div>
+            <div class="column-2">
+                <h3>p y sus atributos</h3>
+                <p> Esta etiqueta no tiene etiquetas específicas, solo tiene atributos generales:</p>
+                <ul>
+                    <li> -id (Para darle una identidad a la etiqueta)</li>
+                    <li>-style (Para darle estilo) </li>
+                    <li> -class (Para asignar una clase) </li>
+                    <li>-dir (Es para indicar cómo se va a leer la lengua, "ltr" de izquierda a derecha o "rtl" de derecha a izquierda)</li>
+                    <li> -lang (Código del idioma)</li>
+                </ul>
+                <p>La etiqueta p se utiliza para escribir parágrafos en las páginas web. Un ejemplo de esta etiqueta sería: Esto es un ejemplo de un parágrafo. Es importante acordarse de cerrar las etiquetas ya que sinó se quedan abiertas y no funcionan
+                    como deberían.
+
+                </p>
+            </div>
+
+        </div>
+        <div id="section-5">
+            <div class="column-2">
+                <h3>a y sus atributos</h3>
+                <p>El elemento <a> crea enlaces a diferentes páginas o secciones de la misma página.
+                Los vínculos son la parte más esencial de HTML y una de las razones principales por las que ha nacido.
+                Los vínculos pueden ser utilizados, para enlazar otros documentos, y también para hacer referencia a una parte específica de su contenido.
+                Atributos principales:
+            </p>
+            <ul>
+                <li>-href: La url de otra página otra parte de la página etc...</li>
+                    <li>-target: Le indicas donde quieres que se se dirija el enlace que le has indicado con el atributo href. Este atributo también sirve para abrir el enlace a una pestaña nueva, se pondría como se ve en la captura de pantalla de la izquierda.</li>
+            </ul>
+        </div>
+        <div class="column-2">
+            <img src="./img/A.png" alt="NO SE VE NADA" width="700px" height="200px">
+        </div> 
+    </div>
+    
+    <div id="section-6">
+        <div class="column-2"><img src="./img/IMG.png" alt="NO SE VE" width="700px" height="200px"></div>
+        <div class="column-2">
+            <h3>img y sus atributos</h3>
+            <p>El elemento <img> representa a una imagen, lo cual es un recurso externo que se inserta en el cuerpo de un documento. 
+                Es unas de las pocas etiquetas que no hace falta cerrar.
+                Atributos principales:
+                </p>
+                <ul>
+                    <li>-src: Indica la URL de la imagen a mostrar.</li>
+                    <li>-alt: Establece un texto alternativo que describa la imagen.Atributo obligatorio).</li>
+                </ul>
+        </div>
+    </div>
+    <div id="section-7">
+        <div class="column-2">
+            <h3>div y sus atributos</h3>
+            <p>El elemento div es una etiqueta sin un significado semántico.
+                Se utiliza para dividir secciones y tener organizado el código.
+                Los autores deberían considerar a div como último recurso, reservado únicamente para aquellos casos en los que elementos con mayor significado, como main, header, footer, nav o article no son aplicables.
+                </p>
+        </div>
+        <div class="column-2"><img src="./img/DIV.png" alt="NO SE VE" width="700px" height="200px"></div>
+    </div>
+   <div id="section-8">
+       <div class="section-8"><h1>Administra tu trabajo en GitHub</h1>
+        <select name="language" id="language" onchange="language()">
+            <option value="ES" selected>Español</option>
+            <option value="EN">Catalán</option>
+        </select>
+</div>
+   </div>
+
+        <script>
+            window.onscroll = function() {
+                myFunction()
+            };
+
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } else {
+                    header.classList.remove("sticky");
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
