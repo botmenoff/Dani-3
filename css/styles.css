@@ -26,17 +26,22 @@ html {
 /*section-1*/
 
 #section-1 {
-    font-size: 40px;
+    width: 100%;
+    font-size: 10px;
     text-align: center;
     padding: 30px 30px;
 }
 
 .section-1 h1 {
-    font-size: 150px;
+    font-size: 130px;
 }
 
 .section-1 i {
     font-size: 200px;
+}
+
+.section-1 {
+    padding-bottom: 50px;
 }
 
 
@@ -90,7 +95,7 @@ div.scrollmenu a:hover {
     width: 100%;
     float: left;
     padding-top: 70px;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 
@@ -99,7 +104,7 @@ div.scrollmenu a:hover {
 #section-4 {
     width: 100%;
     float: left;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 
@@ -108,7 +113,7 @@ div.scrollmenu a:hover {
 #section-5 {
     width: 100%;
     float: left;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 
@@ -117,7 +122,7 @@ div.scrollmenu a:hover {
 #section-6 {
     width: 100%;
     float: left;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 
@@ -126,7 +131,7 @@ div.scrollmenu a:hover {
 #section-7 {
     width: 100%;
     float: left;
-    padding: 50px 200px;
+    padding: 50px 150px;
 }
 
 
@@ -176,6 +181,36 @@ select {
     height: 30px;
     padding: 5px;
     width: 250px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+}
+
+.header {
+    padding: 10px 16px;
+    color: #f1f1f1;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#section-8 {
+    background-color: rgb(114, 113, 111);
+}
+
+.sticky+.content {
+    padding-top: 102px;
 }
 
 
